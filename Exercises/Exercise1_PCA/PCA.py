@@ -78,6 +78,7 @@ Ymax=np.amax(Y,axis=1)+0.1
 Ymin=np.amin(Y,axis=1)-0.1
 N_Color=len(ToColor)
 
+
 fig, axs = plt.subplots(N_Color,figsize=(5,5*N_Color))
 fig.suptitle(f"Subplots for {whatcolor}")
 j=0
