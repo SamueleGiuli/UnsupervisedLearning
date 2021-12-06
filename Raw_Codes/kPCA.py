@@ -1,12 +1,6 @@
 import numpy as np
 import scipy.sparse.linalg as scsl
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score
-import os, sys
-currentdir = os.path.dirname(os.path.realpath(__file__))
-parentdir = os.path.dirname(currentdir)
-sys.path.append(parentdir)
-import util_kPCA as util
+import util_various as util
 
 
 #RETURNS ncomp eigenvals and eigenvecs of the Gram Matrix, if no ncomp is given it will return ncomp = D = number of features
